@@ -1,3 +1,27 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_title">Discover Your Dream Job Here</string>
+    <string name="welcome_subtitle">Explore all the existing job roles based on your interest and study major</string>
+    <string name="login_button">Login</string>
+    <string name="register_button">Register</string>
+
+    <!-- Login Screen -->
+    <string name="login_title">Login here</string>
+    <string name="login_subtitle">Welcome back you\'ve been missed!</string>
+    <string name="email_placeholder">Email</string>
+    <string name="password_placeholder">Password</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="sign_in_button">Sign in</string>
+    <string name="create_account_button">Create new account</string>
+
+    <!-- Register Screen -->
+    <string name="register_title">Create Account</string>
+    <string name="register_subtitle">Create an account so you can explore all the existing jobs</string>
+    <string name="register_confirm_password_placeholder">Confirm Password</string>
+    <string name="sign_up_button">Sign up</string>
+    <string name="already_have_account">Already have an account</string>
+
+    <!-- SSO block -->
+    <string name="sso_text">Or continue with</string>
+
 </resources>

@@ -11,22 +11,20 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 
 @Composable
-fun ActiveButton(text: String, onClick: () -> Unit) {
+fun DefaultActiveButton(text: String, onClick: () -> Unit) {
     FloatingActionButton (
         onClick = onClick,
-        containerColor = Color(0xFF1F41BB),
-        contentColor = Color.White
+        containerColor = Color(0xFF1F41BB)
     ) {
-        Text(text)
+        Text(text, color=Color.White)
     }
 }
 
-
-fun DefaultButton(text: String, onClick: () -> Unit) {
+@Composable
+fun DefaultTextButton(text: String, onClick: () -> Unit) {
     TextButton(
         onClick = { onClick() },
-        conten
     ) {
-        Text(text)
+        Text(text, color=Color.Black)
     }
 }

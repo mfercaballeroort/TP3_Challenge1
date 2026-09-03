@@ -1,4 +1,5 @@
 <resources>
+    <string name="app_name">TP3_Challenge1</string>
     <!-- Welcome Screen -->
     <string name="welcome_title">Discover Your Dream Job Here</string>
     <string name="welcome_subtitle">Explore all the existing job roles based on your interest and study major</string>
